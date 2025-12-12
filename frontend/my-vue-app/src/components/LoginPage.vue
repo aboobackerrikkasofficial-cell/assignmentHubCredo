@@ -153,8 +153,9 @@ onMounted(() =>{
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    width: 350px;
-    padding: 40px;
+    width: 100%;
+    max-width: 350px;
+    padding: 20px;
     border-radius: 10px;
     margin: 0 auto;
     background: white;

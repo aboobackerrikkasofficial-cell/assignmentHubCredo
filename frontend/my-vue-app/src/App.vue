@@ -27,7 +27,10 @@ html,body,#app{
   .page-container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin: 0 auto;
+    align-items: flex-start;
+    padding-top: 60px;           
+    padding-bottom: 20px;
     background-size: cover;
   }
 
@@ -38,4 +41,11 @@ html,body,#app{
   }
 }
 
+  .popup-box {
+    bottom: 70px !important;   
+    padding: 6px 12px;
+    font-size: 14px;
+    transform: translateX(-10%);
+    max-width: 90%;            
+}
 </style>
