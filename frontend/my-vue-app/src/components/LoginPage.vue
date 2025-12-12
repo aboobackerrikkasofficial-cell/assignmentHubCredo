@@ -144,4 +144,54 @@ onMounted(() =>{
   opacity: 1;
   transform: translate(-50%, 0px);
 }
+
+/* Mobile Responsive */
+
+@media (max-width: 600px) {
+  .login-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 350px;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 0 auto;
+    background: white;
+  }
+
+  .login-box h1 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .login-box .inputs-areas {
+    gap: 15px;
+  }
+
+  .login-box .inputs-areas input {
+    padding: 12px 10px;
+    font-size: 14px;
+    border-radius: 8px;
+  }
+
+  .login-box .login-btn {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 0;
+    border-radius: 8px;
+  }
+
+  .signup-area {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .popup-box {
+    font-size: 14px;
+    padding: 6px 15px;
+    bottom: 20px;
+  }
+}
+
 </style>

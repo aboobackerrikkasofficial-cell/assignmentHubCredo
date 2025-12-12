@@ -142,4 +142,36 @@
   opacity: 1;
   transform: translate(-50%, 0px);
 }
+
+/* Mobile Responsive */
+
+@media (max-width: 600px) {
+.signup-box {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+width: 350px;           
+padding: 30px 25px;     
+border-radius: 10px;
+margin: 0 auto;
+background: white;
+}
+
+.signup-box h1 {
+font-size: 26px;
+text-align: center;
+}
+
+.signup-box .signup-inputs {
+gap: 15px;
+width: 100%;
+}
+
+.signup-box .signup-inputs input {
+padding: 12px 10px;
+font-size: 14px;
+}
+}
+
 </style>

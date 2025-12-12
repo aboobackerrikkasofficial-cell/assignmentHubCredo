@@ -21,4 +21,21 @@ html,body,#app{
   background-size: cover;
   background-repeat:no-repeat;
 }
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+  .page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+  }
+
+  html, body, #app {
+    height: auto;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+}
+
 </style>

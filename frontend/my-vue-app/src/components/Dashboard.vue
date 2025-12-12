@@ -122,4 +122,42 @@ function logOut(){
   opacity: 1;
   transform: translate(-50%, 0px);
 }
+
+/* Mobile Responsive */
+
+@media (max-width: 600px) {
+
+  .navigation-bar {
+    padding: 10px 15px;
+  }
+
+  .navigation-bar h4 {
+    font-size: 18px;
+  }
+
+  .navigation-bar button {
+    padding: 8px 18px;
+    font-size: 14px;
+    border-radius: 6px;
+  }
+
+  .dashboard h1 {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 120px;   /* space below fixed navbar */
+    padding: 0 15px;
+  }
+
+  .dashboard h1 span {
+    font-size: 22px;
+    color: rgb(0, 74, 0);
+  }
+
+  .popup-box {
+    font-size: 14px;
+    padding: 6px 15px;
+    bottom: 20px;
+  }
+}
+
 </style>
